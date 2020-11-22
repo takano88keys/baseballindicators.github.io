@@ -1,0 +1,83 @@
+.IndicatorButtonWrap{
+    display: flex;
+    align-items: center;
+}
+.bsoContainer{
+    background-color: black;
+    width:200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BSOBox{
+    display: flex;
+    align-items: center;
+}
+.Title_BSO{
+    color: white;
+    font-size: 48px;
+    margin:0px;
+}
+#BallIndicator{
+    height:80px;
+    color:green;
+    font-size: 72px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+#StrikeIndicator{
+    height:80px;
+    color:yellow;
+    font-size: 72px;
+    margin-top:5px;
+    margin-bottom: 5px;
+ }
+#OutIndicator{
+    height:80px;
+    color:red;
+    font-size: 72px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.BsoButtonsBox{
+    width:45px;
+    margin-left:3px;
+    color:black;
+    font-size: 20px;
+    text-align:center
+}
+.BallButtonsBox{
+    width: 45px;
+    background: gray;
+    margin:5px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.StrikeButtonsBox{
+    width: 45px;
+    background-color: gray;
+    margin:5px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.OutButtonsBox{
+    width: 45px;
+    background-color: gray;
+    margin:5px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+#BallClearBtn,#StrikeClearBtn,#OutClearBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    flex-direction: column;
+    font-size:20px;
+    width: 30px;
+}
+.ClearMultiButtonBox{
+    width:100%;
+}
+#BSClearBtn,#AllClearBtn{
+    height:35px;
+    width: 138px;
+}
